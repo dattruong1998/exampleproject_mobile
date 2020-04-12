@@ -8,7 +8,7 @@ class studentDAO implements studentParentInterface{
   //To show student information
   //if the process can not get student by error, this will show error in console
   //else the process can get data, this will show a ItemList. Otherwise, show dialog("Can not connect link")
-  //return json of student
+  //return json of students
   @override
   Future<List> getAll() async{
     // TODO: implement getAll
